@@ -241,6 +241,9 @@ body {
     .navbar .icons {
         display: none;
     }
+    .navbar-dark .navbar-collapse{
+        border-right: none !important;
+    }
 }
 
 @media screen and (min-width:0px) and (max-width:768px) {

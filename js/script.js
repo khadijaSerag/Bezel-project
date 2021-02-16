@@ -52,7 +52,7 @@ $(window).scroll(function () {
 $("a[class^='nav-link']").click(function () {
     let aHref = $(this).attr("href");
     let sectionOffsetDown = $(aHref).offset().top;
-    $("html,body").animate({ scrollTop: sectionOffsetDown - 40 }, 1700);
+    $("html,body").animate({ scrollTop: sectionOffsetDown - 40 }, 1900);
 });
 
 $(document).ready(function () {
