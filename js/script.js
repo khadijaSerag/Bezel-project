@@ -6,7 +6,7 @@ $(window).scroll(function () {
 
     let wScroll = $(window).scrollTop();
 
-    // ........................ de elgzaya ele5saa bl navbar scroll ..........................
+    // ........................ 
     if (wScroll > aboutOffsetTop - 600) {
 
 
@@ -59,8 +59,8 @@ $(document).ready(function () {
 
     var typed = new Typed('.letter', {
         // Waits 1000ms after typing "First"
-        strings: [' apps ', ' websites ', 'softwares'],//دى الاسترنجات اللى هيكتبها ويبدل مابينهم
-        loop: true, typeSpeed: 70, backSpeed: 70, shuffle: true,// ده عشان الوقت اللى هيكتب فيه الاسترنج
+        strings: [' apps ', ' websites ', 'softwares'],
+        loop: true, typeSpeed: 70, backSpeed: 70, shuffle: true,
     });
 
     $("#loading").fadeOut(1000, function () {
@@ -70,7 +70,6 @@ $(document).ready(function () {
 
 
 // Navigation active state on scroll
-// دى حتة لما اجى اعمل اسكرول السيشن اللى واقف عليه هو اللى يكون اكتيف فوق وتحت اسمه لاين
 // .............................................
 var nav_sections = $('section');
 var main_nav = $('.collapse');
